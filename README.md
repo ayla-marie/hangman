@@ -2,7 +2,7 @@
 
 Hangman Game
 
-Select a letter to figure out a hidden word in a set amount of chances
+Select a letter to figure out a hidden word in a set amount of chances. Used to reinforce calendar terms and proper spelling of words.
 
 Project Specifications
 
