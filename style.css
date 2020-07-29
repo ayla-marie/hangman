@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #383638;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+  height: 400px;
+}
+.figure-container {
+  fill: transparent;
+  stroke: white;
+  stroke-width: 5px;
+  stroke-linecap: round;
+}
+.wrong-letters {
+  color: #84293c;
+}
+.figure-part {
+  display: none;
+}
+.popup {
+  display: none;
+}
+
+.popup {
+  background-color: rgba(0, 20, 30, 0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: #01394f;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.popup p {
+  color: antiquewhite;
+}
+.popup button {
+  font-family: "Quicksand", sans-serif;
+  margin-top: 50px;
+  background-color: yellowgreen;
+  font-size: 14px;
+  padding: 5px 20px;
+  border-radius: 40px;
+}
+.popup button:active {
+  transform: scale(1.25);
+}
+.notice {
+  visibility: collapse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  width: 100%;
+  padding-top: 10px;
+  background-color: rgba(50, 0, 0, 0.5);
+  margin: 0;
+}
+
+.letter {
+  border-bottom: 3px solid silver;
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+}
+.word {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
